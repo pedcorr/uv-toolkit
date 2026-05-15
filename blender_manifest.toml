@@ -1,0 +1,12 @@
+schema_version = "1.0.0"
+id             = "uv_toolkit"
+version        = "1.0.0"
+name           = "UV Toolkit"
+tagline        = "All-in-one UV unwrapping, packing, and texel density"
+maintainer     = "Meliora Group <hello@meliora.group>"
+type           = "add-on"
+blender_version_min = "4.2.0"
+license        = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = ["*.pyc", "__pycache__", ".git"]
